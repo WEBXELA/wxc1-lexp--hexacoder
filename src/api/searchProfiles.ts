@@ -1,8 +1,8 @@
 import axios from 'axios';
 import { SearchFiltersState, Profile, SearchResponse } from '../types';
 
-const GOOGLE_API_KEY = 'AIzaSyDOojV79DnbYOkkhgxZXa_nZzq_8WUcNNI';
-const SEARCH_ENGINE_ID = '45949347f8b954cf9';
+const GOOGLE_API_KEY = 'AIzaSyACVVx32uO1t79AJ0hdNamK6G3h5pgd0oE';
+const SEARCH_ENGINE_ID = '354cf571faa1041fe';
 const RESULTS_PER_PAGE = 10;
 
 function extractProfileUrl(url: string): string {
